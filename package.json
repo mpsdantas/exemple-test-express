@@ -1,0 +1,36 @@
+{
+  "name": "exemple-test-express",
+  "version": "1.0.0",
+  "description": "Repository with application tests for supertest library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --no-cache --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpsdantas/exemple-test-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpsdantas/exemple-test-express/issues"
+  },
+  "homepage": "https://github.com/mpsdantas/exemple-test-express#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "jest": "^24.7.1",
+    "mocha": "^6.0.2",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+		"moduleFileExtensions": [
+			"ts",
+			"tsx",
+			"js",
+			"jsx",
+			"json",
+			"node"
+		]
+	}
+}
